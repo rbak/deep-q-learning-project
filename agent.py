@@ -1,3 +1,5 @@
+# Portions of this file were copied from Udacity's training materials
+
 import numpy as np
 import random
 from collections import namedtuple, deque
