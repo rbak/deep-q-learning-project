@@ -24,11 +24,11 @@ The neural network architecture I settled on was simple, containing two hidden l
 Rewards for the chosen model, trained over 2000 episodes.
 The agent required only about 1200 episodes to consistently perform better than the goal.
 
-![Final Results](https://github.com/rbak/deep-reinforcement-learning-project-1/results/final.png)
+![Final Results](https://github.com/rbak/deep-reinforcement-learning-project-1/blob/master/results/final.png)
 
 Reward summaries for all included models, trained over 2000 episodes.
 
-![Results Summary](https://github.com/rbak/deep-reinforcement-learning-project-1/results/summary.png)
+![Results Summary](https://github.com/rbak/deep-reinforcement-learning-project-1/blob/master/results/summary.png)
 
 ## Future Improvements
 There are several improvements I would like to test with this project.  The main improvement would be to implement other know improvments to the Q-learning algorithm, including double DQN,  dueling DQN or priority replay.  I hope to revist this project to see the effects of these improvements both individually, and working together, possibly working towards implements all of the improvements in Rainbow.  I would also like to spend more time exploring the hyperparameters to see how they affect both the learning curve and final result.
