@@ -21,10 +21,14 @@ By and large I didn't change the hyperparameters much from the values used in ot
 The neural network architecture I settled on was simple, containing two hidden layers with 128 and 64 nodes respectively.  I chose this after trying many architectures, some of which I included in the model file.  In general I found that small neural networks performed better.  The larger and more complicated neural networks started over fitting after a point, and even their peak performance as not as good as the smaller networks.  The reqard comparisons can be found below.
 
 ## Rewards
-Rewards for the chosen model, trained over 2000 episodes.
+Reward summary for the chosen model, trained over 2000 episodes.
 The agent required only about 1200 episodes to consistently perform better than the goal.
 
 ![Final Results](https://github.com/rbak/deep-reinforcement-learning-project-1/blob/master/results/final.png)
+
+Rewards and summary for the chosen model (on a different training run), trained over 2000 episodes.
+
+![Final Results2](https://github.com/rbak/deep-reinforcement-learning-project-1/blob/master/results/final2.png)
 
 Reward summaries for all included models, trained over 2000 episodes.
 

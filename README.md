@@ -18,6 +18,8 @@ The agent uses Deep Q-Learning with experiance replay and fixed q-targets.  It i
   1. Create a python 3.6 virtual environment.  I used Anaconda for this. (`conda create -n yourenvname python=3.6`)
   2. After activating the environment, pip install the requirements file. (`pip install -r requirements.txt`)
 
+Note: The agent is setup to use the MacOS Banana.app environment file.
+
 ## Running
 Run main.py from the repo directory. The main.py file can be run with any of the following flags.
 e.g. `python main.py --test`
