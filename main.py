@@ -171,7 +171,7 @@ def plot_summary(summary_scores, summary_interval):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Advisor service')
+    parser = argparse.ArgumentParser(description='DeepRL - Q-learning project')
     parser.add_argument('--examine',
                         action="store_true",
                         dest="examine",
